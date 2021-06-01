@@ -1,6 +1,7 @@
 import React, { FC } from 'react';
-import { Label } from './label';
+
 import { Input } from './input';
+import { Label } from './label';
 import { Textarea } from './textarea';
 
 interface FieldComposition {

@@ -8,7 +8,8 @@
     "build-storybook": "build-storybook",
     "format:check": "prettier './src/**/*.{ts,tsx}' --check",
     "format:fix": "prettier './src/**/*.{ts,tsx}' --write",
-    "lint": "eslint src/**"
+    "lint": "eslint src/**",
+    "lint:fix": "eslint 'src/**/*.{ts,tsx}' --fix"
   },
   "repository": {
     "type": "git",
@@ -40,6 +41,7 @@
     "babel-loader": "^8.2.2",
     "eslint": "^7.27.0",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "^2.2.1",
