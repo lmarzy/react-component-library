@@ -3,6 +3,7 @@ import commonjs from '@rollup/plugin-commonjs';
 import babel from '@rollup/plugin-babel';
 import externals from 'rollup-plugin-node-externals';
 import del from 'rollup-plugin-delete';
+import { terser } from 'rollup-plugin-terser';
 
 import pkg from './package.json';
 
@@ -21,6 +22,7 @@ export default [
         exclude: '**/node_modules/**',
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
       }),
+      terser(),
     ],
     output: [
       { file: pkg.main, format: 'cjs' },

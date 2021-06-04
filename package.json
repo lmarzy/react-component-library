@@ -1,5 +1,5 @@
 {
-  "name": "@lmarsden/react-component-library",
+  "name": "marzy-react-component-library",
   "version": "0.9.0",
   "description": "React component library built with React, Typescript and Rollup",
   "main": "dist/index.cjs.js",
@@ -70,6 +70,7 @@
     "rollup": "^2.50.6",
     "rollup-plugin-delete": "^2.0.0",
     "rollup-plugin-node-externals": "^2.2.0",
+    "rollup-plugin-terser": "^7.0.2",
     "ts-jest": "^27.0.2",
     "typescript": "4.2.2"
   },
